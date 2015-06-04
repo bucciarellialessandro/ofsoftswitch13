@@ -176,6 +176,7 @@ flow_extract(struct ofpbuf *packet, uint32_t in_port, struct flow *flow)
                         if (tcp) {
                             flow->tp_src = tcp->tcp_src;
                             flow->tp_dst = tcp->tcp_dst;
+			    flow->tp_ctl = tcp->tcp_ctl;
                             packet->l7 = b.data;
                         } else {
                             /* Avoid tricking other code into thinking that

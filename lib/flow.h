@@ -54,6 +54,7 @@ struct flow {
     uint16_t dl_type;           /* Ethernet frame type. */
     uint16_t tp_src;            /* TCP/UDP source port. */
     uint16_t tp_dst;            /* TCP/UDP destination port. */
+    uint16_t tp_ctl;            /* TCP ctl */
     uint8_t dl_src[6];          /* Ethernet source address. */
     uint8_t dl_dst[6];          /* Ethernet destination address. */
     uint8_t dl_vlan_pcp;        /* Input VLAN priority. */
