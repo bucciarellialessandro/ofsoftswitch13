@@ -133,3 +133,4 @@ utilities/ofp-read.o
 *~
 cscope.*
 .*.swp
+.tags
