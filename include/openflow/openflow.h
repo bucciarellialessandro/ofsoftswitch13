@@ -395,7 +395,7 @@ enum oxm_ofb_match_fields {
     OFPXMT_OFB_FLAGS = 40,        /* Global States */
     OFPXMT_OFB_STATE = 41,        /* Flow State */
     
-    OFPXMT_TCP_CTL = 100,        /* TCP control fields */
+    OFPXMT_OFB_TCP_CTL = 100,        /* TCP control fields */
 
 
 
